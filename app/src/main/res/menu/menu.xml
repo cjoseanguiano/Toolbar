@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionConfig"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:orderInCategory="200"
+        android:title="Configuracion"
+        app:showAsAction="ifRoom"></item>
+
+    <item
+        android:id="@+id/actionEstrella"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:orderInCategory="300"
+        android:title="Estrella"
+        app:showAsAction="ifRoom"></item>
+</menu>
